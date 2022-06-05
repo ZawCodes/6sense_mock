@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'ProximaNova';
+  src: local('ProximaNova'), url(../src/Components/assets/fonts/ProximaNova-Regular.otf) format('opentype');
+}
+@font-face {
+  font-family: 'ProximaNova';
+  font-weight: 600;
+  src: local('ProximaNova'), url(../src/Components/assets/fonts/Proxima\ Nova\ Bold.otf) format('opentype');
+}
+
+body {
+  margin: 0;
+  font-family: 'ProximaNova', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

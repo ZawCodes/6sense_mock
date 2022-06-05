@@ -1,0 +1,61 @@
+.team-card {
+    /* width: 307px; */
+    /* height: 181px; */
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+}
+.team-image {
+    width: 36px;
+    border-radius: 4px;
+}
+.team-card-title {
+    display: flex;
+    padding: 16px;
+    position: relative;
+}
+.team-date {
+    display: flex;
+    flex-direction: column;
+    margin-left: 9px;
+}
+.team-date span:first-child {
+    font-size: 16px;
+    font-weight: 600;
+    color: #444444;
+}
+.team-date span:last-child {
+    font-size: 13px;
+    color: #565656;
+}
+.star-wrap {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+.team-desc{
+    color: #565656;
+    font-size: 14px;
+
+    padding: 0 16px 16px 16px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.team-desc p {
+    margin: 0;
+}
+.team-footer {
+    display: flex;
+    align-items: center;
+    padding: 16px 20px;
+    color: #b3b3b3;
+    font-size: 13px;
+}
+.team-footer div {
+    display: flex;
+    align-items: center;
+}
+.team-footer div:not(:last-child) {
+    margin-right: 7px;
+}
+.team-footer div img {
+    margin-right: 6px;
+}

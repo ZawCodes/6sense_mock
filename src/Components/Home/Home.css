@@ -1,0 +1,64 @@
+.page-wrap {
+    display: flex;
+    background: #eceff3;
+}
+.leftbar-wrap {
+    min-width: 80px;
+    /* width: 5%; */
+    height: 100vh;
+}
+.main-wrap {
+    width: 95%;
+}
+.home-section {
+    padding: 42px;
+    display: flex;
+    overflow: auto;
+    height: calc(100vh - 320px);
+}
+.team-wrap {
+    width: 80%;
+    height: min-content;
+    background: white;
+    margin-right: 33px;
+    padding: 27px;
+}
+.activity-wrap {
+    min-width: 316px;
+    width: 20%;
+    height: fit-content;
+    background: white;
+}
+.team-wrap .tab-title {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    border-bottom: 1px solid #e2e2e2;
+    align-items: center;
+    margin-bottom: 27px;
+}
+.tab-title > span:first-child {
+    font-size: 18px;
+    font-weight: 600;
+}
+.tab-title > span:last-child {
+    font-size: 14px;
+    color: #7F7F7F;
+}
+.card-wrap {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 13px;
+    display: inline-grid;
+}
+.activity-wrap > div:first-child {
+    font-weight: 600;
+    font-size: 18px;
+    color: #343434;
+    padding: 29px 29px 18px 29px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.activity-profile-wrap {
+    padding: 26px;
+    height: 460px;
+    overflow: auto;
+}

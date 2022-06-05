@@ -1,0 +1,37 @@
+.left-header {
+    background: #042235;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.left-header nav {
+    width: 100%;
+}
+.left-header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.left-header li {
+    height: 80px;
+    color: #4f6472;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.li-active {
+    background: #2995DA;
+    color: white !important;
+}
+.left-header li svg:hover {
+    color: white;
+}
+.help {
+    position: absolute;
+    bottom: 0;
+}
