@@ -4,6 +4,9 @@
     border: 1px solid #e2e2e2;
     border-radius: 4px;
 }
+.team-archived {
+    background: #ebeef2
+}
 .team-image {
     width: 36px;
     border-radius: 4px;
@@ -25,7 +28,7 @@
 }
 .team-date span:last-child {
     font-size: 13px;
-    color: #565656;
+    color: #aaaaaa;
 }
 .star-wrap {
     position: absolute;
@@ -35,9 +38,14 @@
 .team-desc{
     color: #565656;
     font-size: 14px;
+    padding: 0 16px;
 
-    padding: 0 16px 16px 16px;
-    border-bottom: 1px solid #e2e2e2;
+    line-height: 1em;
+    max-height: 2em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
 }
 .team-desc p {
     margin: 0;
@@ -48,6 +56,8 @@
     padding: 16px 20px;
     color: #b3b3b3;
     font-size: 13px;
+    border-top: 1px solid #e2e2e2;
+    margin-top: 16px;
 }
 .team-footer div {
     display: flex;

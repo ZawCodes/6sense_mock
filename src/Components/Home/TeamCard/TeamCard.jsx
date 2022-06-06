@@ -1,36 +1,40 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './TeamCard.css'
 import star_default from '../../assets/images/star_default.svg'
+import star_active from '../../assets/images/star_active.svg'
 import conversation from '../../assets/images/icon-conversations-small.svg'
 import lead from '../../assets/images/icon-leads-small.svg'
 
-const TeamCard = () => {
+const TeamCard = (props) => {
+    useEffect(() => {
+        console.log('team data', props);
+      })
   return (
     <>
-        <div className='team-card'>
+        <div className={`team-card ${props.teamValue.is_archived ? 'team-archived': ''}`}>
             <div className='team-card-title'>
-                <img className='team-image' src='https://d1bb37ap2qun5z.cloudfront.net/shows/show_stub_avatars/000/000/970/twitter/shield-hero-avatar.jpg?1546779870'/>
+                <img className='team-image' src={props.teamValue.image}/>
                 <div className='team-date'>
-                    <span>Axa</span>
-                    <span>Created 28 July 2018</span>
+                    <span>{props.teamValue.name}</span>
+                    <span>{props.teamValue.is_archived ? 'Archived on ' + props.teamValue.archived_at : props.teamValue.created_at}</span>
                 </div>
                 <div className='star-wrap'>
-                    <img src={star_default}/>
+                    <img src={props.teamValue.is_favorited? star_active : star_default}/>
                 </div>
             </div>
             <div className='team-desc'>
                 <p>
-                AXA is a French multinational insurance firm headquartered in the 8th arrondissement ...
+                {props.teamValue.description}
                 </p>
             </div>
             <div className='team-footer'>
                 <div>
                     <img src={conversation}/>
-                    <span>20 Campaigns</span>
+                    <span>{props.teamValue.campaigns_count} Campaigns</span>
                 </div>
                 <div>
                     <img src={lead}/>
-                    <span>1,500 Leads</span>
+                    <span>{props.teamValue.leads_count} Leads</span>
                 </div>
             </div>
         </div>

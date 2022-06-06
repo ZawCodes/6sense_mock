@@ -4,7 +4,7 @@ import mail from '../../assets/images/icon-mail.svg'
 import down from '../../assets/images/caret_down.svg'
 import noti from '../../assets/images/noticount.svg'
 
-const Topbar = () => {
+const Topbar = (props) => {
   return (
     <>
         <header className='top-header'>
@@ -13,10 +13,10 @@ const Topbar = () => {
                 <span className='tab-name'>Teams</span>
             </div>
             <div className='account-info-wrap'>
-                <span className='mail-wrap'><div className='noti'><span>3</span><img src={noti}/></div><img className='mail-icon' src={mail}/></span>
+                <span className='mail-wrap'><div className='noti'><span>{props.profileValue.notifications_count}</span><img src={noti}/></div><img className='mail-icon' src={mail}/></span>
                 <div className='profile-wrap'>
-                    <span>Hello, John</span>
-                    <img className='pro-pic' src='https://d1bb37ap2qun5z.cloudfront.net/profiles/profile_avatars/000/000/001/display/shimakaze-desu.jpg?1396709040'/>
+                    <span>Hello, {props.profileValue.name}</span>
+                    <img className='pro-pic' src={props.profileValue.avatar}/>
                     <img className='down-icon' src={down}/>
                 </div>
             </div>
