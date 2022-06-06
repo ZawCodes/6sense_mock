@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/6sense_mock/static/css/main.1547557a.css",
+    "main.js": "/6sense_mock/static/js/main.b2103258.js",
+    "static/js/787.a5d7afa3.chunk.js": "/6sense_mock/static/js/787.a5d7afa3.chunk.js",
+    "static/media/Proxima Nova Bold.otf": "/6sense_mock/static/media/Proxima Nova Bold.fcaab2524c5baabd71f6.otf",
+    "static/media/ProximaNova-Regular.otf": "/6sense_mock/static/media/ProximaNova-Regular.ea03f826587148b7335d.otf",
+    "static/media/logo.svg": "/6sense_mock/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/star_default.svg": "/6sense_mock/static/media/star_default.d3a9354b051ea9ea80db848e41735ddb.svg",
+    "static/media/icon-leads-small.svg": "/6sense_mock/static/media/icon-leads-small.b1db1d751dec6ac165a2ab16176312d2.svg",
+    "static/media/icon-conversations-small.svg": "/6sense_mock/static/media/icon-conversations-small.ead030f2aca5fb157a614e8a9f421892.svg",
+    "index.html": "/6sense_mock/index.html",
+    "static/media/star_active.svg": "/6sense_mock/static/media/star_active.15ca0d57cfb749684c779389a02147bf.svg",
+    "static/media/icon-mail.svg": "/6sense_mock/static/media/icon-mail.c6dffdcb8b5a8d39e3c54a1fac9462ee.svg",
+    "static/media/icon-search.svg": "/6sense_mock/static/media/icon-search.fd828043de1c07b432c62281895f0209.svg",
+    "static/media/caret_down.svg": "/6sense_mock/static/media/caret_down.8857275e3abaff13f0ea9780d9d35700.svg",
+    "static/media/noticount.svg": "/6sense_mock/static/media/noticount.c881bc6b3ec05d794b81ff6c2a6e8283.svg",
+    "static/media/Plus.svg": "/6sense_mock/static/media/Plus.47bd45b56877c002056af13a85933350.svg",
+    "main.1547557a.css.map": "/6sense_mock/static/css/main.1547557a.css.map",
+    "main.b2103258.js.map": "/6sense_mock/static/js/main.b2103258.js.map",
+    "787.a5d7afa3.chunk.js.map": "/6sense_mock/static/js/787.a5d7afa3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1547557a.css",
+    "static/js/main.b2103258.js"
+  ]
+}
